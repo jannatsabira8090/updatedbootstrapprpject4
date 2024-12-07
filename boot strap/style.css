@@ -1,0 +1,84 @@
+
+* {
+  --primary-color: #008080;
+}
+
+body {
+  color: #555; /* Steel Gray */
+  font-family: "Roboto", sans-serif;
+}
+
+
+.carousel {
+  min-height: 60vh; 
+}
+
+.carousel-item img {
+  max-height: 100%; 
+  object-fit: cover;
+  width: auto; 
+}
+
+.navbar-brand {
+  font-size: 30px;
+}
+
+.nav-link {
+  font-size: 18px !important;
+  font-weight: 500;
+}
+
+.head-section {
+  background-image: linear-gradient(to right, rgba(0, 128, 128,0.1), #008080);
+}
+
+.navbar-brand,
+.text-primary {
+  color: #008080 !important;
+}
+
+.btn-primary {
+  background-color: #008080 !important;
+  border: none;
+}
+
+.nav-link:hover {
+  color: #008080;
+}
+
+p {
+  font-size: 18px;
+}
+.btn-primary:hover {
+  background-color: #257dfd !important;
+}
+
+.blue-bg {
+  background-color: #008080;
+  color: #fff;
+}
+
+.ionicons {
+  color: #008080;
+  background-color: #f2f2f2;
+  padding: 10px;
+  height: 30px;
+  width: 30px;
+  margin-bottom: 12px;
+}
+
+.nav-tabs {
+  border: none;
+}
+
+.nav-tabs .active {
+  background-color: #008080 !important;
+  border: none;
+  color: #fff !important;
+}
+
+.footer-section {
+  background-color: #008080 !important;
+  border: none;
+  color: #fff !important;
+}
